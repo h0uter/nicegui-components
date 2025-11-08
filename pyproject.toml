@@ -1,0 +1,17 @@
+[project]
+name = "nicegui-components"
+version = "0.1.0"
+description = "Nicegui components that can be reused"
+readme = "README.md"
+authors = [
+    { name = "W. J. Meijer", email = "houterm@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "nicegui>=3.2.0",
+]
+
+
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
